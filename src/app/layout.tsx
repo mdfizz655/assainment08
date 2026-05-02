@@ -18,7 +18,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        {/* পপ-আপ মেসেজের জন্য Toaster */}
+        
+        
         <Toaster position="top-center" reverseOrder={false} />
         <main className="min-h-screen">
           {children}
