@@ -2,12 +2,8 @@ import { betterAuth } from "better-auth";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 import clientPromise from "./db";
 
-// BetterAuth-এর জন্য ডাটাবেজ অবজেক্টটি বের করে আনা
-const client = await clientPromise;
-const db = client.db(); 
-
 export const auth = betterAuth({
-    database: mongodbAdapter(db), // এখানে এখন সঠিক Db অবজেক্ট যাচ্ছে
+    database: mongodbAdapter(await clientPromise.then(c => c.db())),
     emailAndPassword: {
         enabled: true
     },
