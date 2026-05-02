@@ -1,0 +1,50 @@
+[
+  {
+    "id": "tile_001",
+    "title": "Ceramic Blue Tile",
+    "description": "Premium ceramic tile with blue glaze finish",
+    "image": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=500",
+    "category": "ceramic",
+    "price": 45.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_002",
+    "title": "Modern Grey Marble",
+    "description": "Elegant grey marble for modern living rooms",
+    "image": "https://images.unsplash.com/photo-1523413555809-0fb87292d5a9?q=80&w=500",
+    "category": "marble",
+    "price": 89.99,
+    "currency": "USD",
+    "dimensions": "80x80 cm",
+    "material": "Marble",
+    "inStock": true
+  },
+  {
+    "id": "tile_003",
+    "title": "Wood Texture Tile",
+    "description": "Natural wood finish tile for cozy interiors",
+    "image": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=500",
+    "category": "wood",
+    "price": 35.50,
+    "currency": "USD",
+    "dimensions": "20x120 cm",
+    "material": "Porcelain",
+    "inStock": true
+  },
+  {
+    "id": "tile_004",
+    "title": "Geometric Pattern",
+    "description": "Artistic geometric patterns for accent walls",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=500",
+    "category": "pattern",
+    "price": 55.00,
+    "currency": "USD",
+    "dimensions": "40x40 cm",
+    "material": "Ceramic",
+    "inStock": true
+  }
+]
